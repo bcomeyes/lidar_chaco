@@ -1,0 +1,7 @@
+rasterio
+numpy
+matplotlib
+scipy
+requests
+python-dotenv
+ipykernel
