@@ -1,0 +1,22 @@
+segments: train 9, test 8
+baseline   {"sigma_m": 0.75, "window_m": 25}             train 0.580  test 0.570
+lrm        {"sigma_m": 0.75, "window_m": 10}             train 0.554  test 0.552
+lrm        {"sigma_m": 0.75, "window_m": 15}             train 0.579  test 0.573
+lrm        {"sigma_m": 0.75, "window_m": 25}             train 0.580  test 0.570
+lrm        {"sigma_m": 0.75, "window_m": 40}             train 0.576  test 0.554
+lrm        {"sigma_m": 1.5, "window_m": 10}              train 0.556  test 0.554
+lrm        {"sigma_m": 1.5, "window_m": 15}              train 0.583  test 0.576
+lrm        {"sigma_m": 1.5, "window_m": 25}              train 0.583  test 0.572
+lrm        {"sigma_m": 1.5, "window_m": 40}              train 0.578  test 0.553
+lrm        {"sigma_m": 3.0, "window_m": 10}              train 0.441  test 0.467
+lrm        {"sigma_m": 3.0, "window_m": 15}              train 0.592  test 0.574
+lrm        {"sigma_m": 3.0, "window_m": 25}              train 0.585  test 0.569
+lrm        {"sigma_m": 3.0, "window_m": 40}              train 0.569  test 0.546
+slope      {"slope_limit_deg": 25}                       train 0.600  test 0.574
+slope      {"slope_limit_deg": 15}                       train 0.600  test 0.570
+slope      {"slope_limit_deg": 10}                       train 0.600  test 0.564
+slope      {"slope_limit_deg": 6}                        train 0.559  test 0.569
+line       {"line_length_m": 20}                         train 0.611  test 0.549
+line       {"line_length_m": 40}                         train 0.568  test 0.544
+line       {"line_length_m": 80}                         train 0.562  test 0.558
+chosen: {'sigma_m': 3.0, 'window_m': 15, 'slope_limit_deg': 10, 'line_length_m': 20} | final {'train': 0.6128274159477413, 'test': 0.5494684585030656} | baseline {'train': 0.5801666010728445, 'test': 0.5700411098779798}

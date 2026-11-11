@@ -1,0 +1,5 @@
+pieces 1811, chains 921
+min length 100 m: covers 10% of marked road, hits 1/17 roads, 45% of detected line lies on a marked road
+min length 150 m: covers 7% of marked road, hits 0/17 roads, 50% of detected line lies on a marked road
+min length 200 m: covers 6% of marked road, hits 0/17 roads, 71% of detected line lies on a marked road
+min length 300 m: covers 4% of marked road, hits 0/17 roads, 81% of detected line lies on a marked road

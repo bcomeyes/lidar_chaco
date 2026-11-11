@@ -1,0 +1,4 @@
+varien_fig8_8 dot pattern vs Lipe Fig. 10.1 {'similarity_matches': 37, 'm_per_px': 51.1, 'rotation_deg': -1.7, 'pairs': 35, 'median_m': 297, 'p90_m': 657}
+varien_fig8_12 dot pattern vs all centres read so far {'similarity_matches': 53, 'm_per_px': 43.0, 'rotation_deg': -2.8, 'pairs': 46, 'median_m': 359, 'p90_m': 850}
+PBS map: {"tie_points": {"Cortez": [746.5, 1003.5], "Shiprock": [726.5, 1133.0], "Gallup": [720.5, 1406.5], "Flagstaff": [70.0, 1478.5], "Albuquerque": [1183.5, 1500.5], "Four Corners": [643.5, 1082.5]}, "fit_km": {"Cortez": 0.2, "Shiprock": 0.7, "Gallup": 0.4, "Flagstaff": 0.1, "Albuquerque": 0.1, "Four Corners": 0.4}, "leave_one_out_km": {"Cortez": 0.5, "Shiprock": 1.2, "Gallup": 1.5, "Flagstaff": 4.3, "Albuquerque": 13.2, "Four Corners": 0.8}, "state_line_lon_median": -109.073, "state_line_lon_spread": 0.094, "km_per_px": 0.4} 161 dots
+wrote output/overlays/maps.kml with 7 overlays

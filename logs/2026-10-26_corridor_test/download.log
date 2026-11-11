@@ -1,0 +1,51 @@
+46 tiles listed, 44 to fetch, 8853 MB
+46 tiles listed, 44 to fetch, 8853 MB
+--- restart 17:06:46 (two copies had run at once; partial file removed)
+46 tiles listed, 44 to fetch, 8853 MB
+--- start 17:09:59
+46 tiles listed, 44 to fetch, 8853 MB
+[1/44] USGS_1M_12_x67y417_CO_Southwest_NRCS_2018_D18.tif 213 MB in 28 s
+[4/44] USGS_1M_12_x69y415_CO_Southwest_NRCS_2018_D18.tif 283 MB in 171 s
+[2/44] USGS_1M_12_x68y416_CO_Southwest_NRCS_2018_D18.tif 273 MB in 229 s
+[3/44] USGS_1M_12_x69y414_CO_Southwest_NRCS_2018_D18.tif 296 MB in 233 s
+[5/44] USGS_1M_12_x69y416_CO_Southwest_NRCS_2018_D18.tif 255 MB in 216 s
+[7/44] USGS_1M_12_x70y414_CO_Southwest_NRCS_2018_D18.tif 283 MB in 312 s
+[6/44] USGS_1M_12_x70y413_CO_Southwest_NRCS_2018_D18.tif 269 MB in 317 s
+[8/44] USGS_1M_12_x70y415_CO_Southwest_NRCS_2018_D18.tif 256 MB in 411 s
+[9/44] USGS_1M_12_x70y416_CO_Southwest_NRCS_2018_D18.tif 244 MB in 545 s
+[10/44] USGS_1M_12_x71y413_CO_Southwest_NRCS_2018_D18.tif 290 MB in 569 s
+[11/44] USGS_1M_12_x71y414_CO_Southwest_NRCS_2018_D18.tif 259 MB in 509 s
+[12/44] USGS_1M_12_x71y415_CO_Southwest_NRCS_2018_D18.tif 259 MB in 480 s
+[13/44] USGS_1M_12_x71y416_CO_Southwest_NRCS_2018_D18.tif 235 MB in 472 s
+[16/44] USGS_one_meter_x22y407_NM_Animas_2014.tif 5 MB in 2 s
+[14/44] USGS_1M_12_x72y413_CO_Southwest_NRCS_2018_D18.tif 280 MB in 430 s
+[17/44] USGS_one_meter_x23y408_NM_Animas_2014.tif 188 MB in 345 s
+[15/44] USGS_1M_12_x72y414_CO_Southwest_NRCS_2018_D18.tif 272 MB in 383 s
+[20/44] USGS_1M_12_x76y407_NM_NorthWest_2018_D19.tif 46 MB in 57 s
+[21/44] USGS_1M_12_x76y408_NM_NorthWest_2018_D19.tif 16 MB in 40 s
+[18/44] USGS_one_meter_x23y409_NM_Animas_2014.tif 313 MB in 375 s
+[22/44] USGS_1M_13_x22y407_NM_NorthWest_2018_D19.tif 38 MB in 95 s
+[24/44] USGS_1M_13_x23y408_NM_NorthWest_2018_D19.tif 117 MB in 214 s
+[25/44] USGS_1M_12_x64y417_UT_COUTAML_D24.tif 11 MB in 11 s
+[19/44] USGS_one_meter_x76y408_NM_Animas_2014.tif 325 MB in 438 s
+[27/44] USGS_1M_12_x66y417_UT_COUTAML_D24.tif 172 MB in 263 s
+[28/44] USGS_1M_12_x63y415_UT_StatewideCenSouth_2020_A20.tif 7 MB in 1 s
+[23/44] USGS_1M_13_x23y407_NM_NorthWest_2018_D19.tif 191 MB in 502 s
+[29/44] USGS_1M_12_x63y416_UT_StatewideCenSouth_2020_A20.tif 15 MB in 6 s
+[30/44] USGS_1M_12_x63y417_UT_StatewideCenSouth_2020_A20.tif 9 MB in 2 s
+[26/44] USGS_1M_12_x65y417_UT_COUTAML_D24.tif 241 MB in 412 s
+[31/44] USGS_1M_12_x64y417_UT_StatewideCenSouth_2020_A20.tif 278 MB in 268 s
+[32/44] USGS_1M_12_x65y417_UT_StatewideCenSouth_2020_A20.tif 291 MB in 295 s
+[33/44] USGS_1M_12_x66y417_UT_StatewideCenSouth_2020_A20.tif 290 MB in 272 s
+[34/44] USGS_1M_12_x62y413_UT_StatewideSouth_2020_A20.tif 262 MB in 162 s
+[35/44] USGS_1M_12_x62y414_UT_StatewideSouth_2020_A20.tif 174 MB in 184 s
+[36/44] USGS_1M_12_x62y415_UT_StatewideSouth_2020_A20.tif 178 MB in 131 s
+[38/44] USGS_1M_12_x63y415_UT_StatewideSouth_2020_A20.tif 340 MB in 361 s
+[37/44] USGS_1M_12_x63y414_UT_StatewideSouth_2020_A20.tif 348 MB in 462 s
+[41/44] USGS_1M_12_x64y417_UT_StatewideSouth_2020_A20.tif 2 MB in 2 s
+[39/44] USGS_1M_12_x63y416_UT_StatewideSouth_2020_A20.tif 327 MB in 450 s
+[42/44] USGS_1M_12_x62y413_UT_WestEast_B22.tif 71 MB in 110 s
+[40/44] USGS_1M_12_x63y417_UT_StatewideSouth_2020_A20.tif 333 MB in 246 s
+[43/44] USGS_1M_12_x62y414_UT_WestEast_B22.tif 150 MB in 260 s
+[44/44] USGS_1M_12_x62y415_UT_WestEast_B22.tif 148 MB in 296 s
+all done

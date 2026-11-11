@@ -1,0 +1,36 @@
+--- start 14:01:21
+0175 {'heading': np.float64(134.56), 'tilt_down': np.float64(13.14), 'roll': np.float64(-1.27), 'focal_px': 1046, 'hfov_deg': 59.9, 'sky_err_px': 0.45, 'next_best_heading': np.float64(275.9), 'next_best_err_px': 2.25}
+0177 {'heading': np.float64(119.5), 'tilt_down': np.float64(16.68), 'roll': np.float64(-1.6), 'focal_px': 813, 'hfov_deg': 73.1, 'sky_err_px': 2.15, 'next_best_heading': np.float64(204.2), 'next_best_err_px': 2.36}
+0178 {'heading': np.float64(136.17), 'tilt_down': np.float64(13.1), 'roll': np.float64(-1.24), 'focal_px': 1049, 'hfov_deg': 59.8, 'sky_err_px': 0.4, 'next_best_heading': np.float64(277.7), 'next_best_err_px': 1.97}
+0179 {'heading': np.float64(151.53), 'tilt_down': np.float64(12.96), 'roll': np.float64(-1.23), 'focal_px': 1085, 'hfov_deg': 58.1, 'sky_err_px': 0.49, 'next_best_heading': np.float64(289.4), 'next_best_err_px': 1.91}
+0180 {'heading': np.float64(158.94), 'tilt_down': np.float64(12.54), 'roll': np.float64(-1.14), 'focal_px': 1127, 'hfov_deg': 56.3, 'sky_err_px': 0.67, 'next_best_heading': np.float64(295.6), 'next_best_err_px': 2.34}
+Road A bearing: [160.3, 162.6] mean 161.4
+Road A detector: 10 pieces >= 100 m: [(86, 193, 82), (114, 306, -3), (476, 791, 11), (814, 924, -8), (1013, 1164, 113), (1020, 1126, -14), (1185, 1298, 25), (1352, 1484, -143), (1369, 1658, -2), (2358, 2495, -148)]
+share of line length at z>=2, by offset (every 10 m): {-200: 0.0, -190: 0.0, -180: 0.01, -170: 0.0, -160: 0.02, -150: 0.01, -140: 0.04, -130: 0.0, -120: 0.0, -110: 0.0, -100: 0.0, -90: 0.01, -80: 0.0, -70: 0.02, -60: 0.01, -50: 0.0, -40: 0.0, -30: 0.0, -20: 0.01, -10: 0.03, 0: 0.11, 10: 0.05, 20: 0.05, 30: 0.02, 40: 0.02, 50: 0.03, 60: 0.0, 70: 0.01, 80: 0.05, 90: 0.02, 100: 0.03, 110: 0.03, 120: 0.04, 130: 0.0, 140: 0.01, 150: 0.0, 160: 0.0, 170: 0.0, 180: 0.0, 190: 0.0, 200: 0.0}
+Traceback (most recent call last):
+  File "/home/matt/Documents/lidar_chaco/scripts/lowry_drone_roads.py", line 252, in <module>
+    main()
+  File "/home/matt/Documents/lidar_chaco/scripts/lowry_drone_roads.py", line 216, in main
+    views = [cv.render(tiles, tree, p0, u, v, s0, min(s0 + 1000, L), pieces,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/matt/Documents/lidar_chaco/scripts/corridor_views.py", line 89, in render
+    panels = [stretch(side_lit(z, +1)), stretch(side_lit(z, -1)), stretch(openness(z), 5),
+                      ^^^^^^^^^^^^^^^
+  File "/home/matt/Documents/lidar_chaco/scripts/corridor_views.py", line 49, in side_lit
+    dzt, dzs = np.gradient(z * VE)           # d/d(row) = d/d(offset, but rows go downwards), d/d(along)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/matt/Documents/lidar_chaco/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py", line 1308, in gradient
+    raise ValueError(
+ValueError: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+--- end 14:04:02
+--- start 14:04:40
+0175 {'heading': np.float64(134.56), 'tilt_down': np.float64(13.14), 'roll': np.float64(-1.27), 'focal_px': 1046, 'hfov_deg': 59.9, 'sky_err_px': 0.45, 'next_best_heading': np.float64(275.9), 'next_best_err_px': 2.25}
+0177 {'heading': np.float64(119.5), 'tilt_down': np.float64(16.68), 'roll': np.float64(-1.6), 'focal_px': 813, 'hfov_deg': 73.1, 'sky_err_px': 2.15, 'next_best_heading': np.float64(204.2), 'next_best_err_px': 2.36}
+0178 {'heading': np.float64(136.17), 'tilt_down': np.float64(13.1), 'roll': np.float64(-1.24), 'focal_px': 1049, 'hfov_deg': 59.8, 'sky_err_px': 0.4, 'next_best_heading': np.float64(277.7), 'next_best_err_px': 1.97}
+0179 {'heading': np.float64(151.53), 'tilt_down': np.float64(12.96), 'roll': np.float64(-1.23), 'focal_px': 1085, 'hfov_deg': 58.1, 'sky_err_px': 0.49, 'next_best_heading': np.float64(289.4), 'next_best_err_px': 1.91}
+0180 {'heading': np.float64(158.94), 'tilt_down': np.float64(12.54), 'roll': np.float64(-1.14), 'focal_px': 1127, 'hfov_deg': 56.3, 'sky_err_px': 0.67, 'next_best_heading': np.float64(295.6), 'next_best_err_px': 2.34}
+Road A bearing: [160.3, 162.6] mean 161.4
+Road A detector: 10 pieces >= 100 m: [(86, 193, 82), (114, 306, -3), (476, 791, 11), (814, 924, -8), (1013, 1164, 113), (1020, 1126, -14), (1185, 1298, 25), (1352, 1484, -143), (1369, 1658, -2), (2358, 2495, -148)]
+share of line length at z>=2, by offset (every 10 m): {-200: 0.0, -190: 0.0, -180: 0.01, -170: 0.0, -160: 0.02, -150: 0.01, -140: 0.04, -130: 0.0, -120: 0.0, -110: 0.0, -100: 0.0, -90: 0.01, -80: 0.0, -70: 0.02, -60: 0.01, -50: 0.0, -40: 0.0, -30: 0.0, -20: 0.01, -10: 0.03, 0: 0.11, 10: 0.05, 20: 0.05, 30: 0.02, 40: 0.02, 50: 0.03, 60: 0.0, 70: 0.01, 80: 0.05, 90: 0.02, 100: 0.03, 110: 0.03, 120: 0.04, 130: 0.0, 140: 0.01, 150: 0.0, 160: 0.0, 170: 0.0, 180: 0.0, 190: 0.0, 200: 0.0}
+wrote output/lowry_roads/lowry_roads.kml
+--- end 14:07:49

@@ -1,0 +1,4 @@
+noise bar: a step passes if its dip >= 8.1 cm (beats 90% of random ground)
+before: 71% of detected line lies on marked roads; 12% of marked road length found
+after : 65% of detected line lies on marked roads; 13% of marked road length found
+ends: {'edge': 10, 'faded': 48}

@@ -1,0 +1,4 @@
+Fig 8.11 -> UTM via Lipe 10.1 dots: {'similarity_matches': 39, 'm_per_px': 44.4, 'rotation_deg': 2.5, 'pairs': 36, 'median_m': 480, 'p90_m': 942}
+Fig 8.7 -> Fig 8.11 via terrain: {'sift_inliers': 43, 'windows': 21, 'local_shift_px_median': 5.4, 'local_shift_px_p90': 8.5} (1 px ~ 44 m)
+fig8_11: 58 dots
+fig8_7: 31 dots

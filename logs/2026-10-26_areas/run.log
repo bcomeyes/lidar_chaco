@@ -1,0 +1,119 @@
+aztec: window (2885, 4000) at (-108.0287, 36.8367), valid 100%
+bearing   0.0 done
+bearing   5.0 done
+bearing  10.0 done
+bearing  15.0 done
+bearing  20.0 done
+bearing  25.0 done
+bearing  30.0 done
+bearing  35.0 done
+bearing  40.0 done
+bearing  45.0 done
+bearing  50.0 done
+bearing  55.0 done
+bearing  60.0 done
+bearing  65.0 done
+bearing  70.0 done
+bearing  75.0 done
+bearing  80.0 done
+bearing  85.0 done
+bearing  90.0 done
+bearing  95.0 done
+bearing 100.0 done
+bearing 105.0 done
+bearing 110.0 done
+bearing 115.0 done
+bearing 120.0 done
+bearing 125.0 done
+bearing 130.0 done
+bearing 135.0 done
+bearing 140.0 done
+bearing 145.0 done
+bearing 150.0 done
+bearing 155.0 done
+bearing 160.0 done
+bearing 165.0 done
+bearing 170.0 done
+bearing 175.0 done
+{"name": "aztec", "tile": "output/3dep/aztec/USGS_one_meter_x76y409_NM_Animas_2014.tif", "centre_lonlat": [-108.0287, 36.8367], "size_m": [2885, 4000], "pieces": 1818, "chains": 997, "chains_ge_150m": 43, "chains_ge_300m": 6, "z_ge_2_share": 0.023232842287694976}
+lowry: window (3837, 4000) at (-108.9186, 37.5852), valid 100%
+bearing   0.0 done
+bearing   5.0 done
+bearing  10.0 done
+bearing  15.0 done
+bearing  20.0 done
+bearing  25.0 done
+bearing  30.0 done
+bearing  35.0 done
+bearing  40.0 done
+bearing  45.0 done
+bearing  50.0 done
+bearing  55.0 done
+bearing  60.0 done
+bearing  65.0 done
+bearing  70.0 done
+bearing  75.0 done
+bearing  80.0 done
+bearing  85.0 done
+bearing  90.0 done
+bearing  95.0 done
+bearing 100.0 done
+bearing 105.0 done
+bearing 110.0 done
+bearing 115.0 done
+bearing 120.0 done
+bearing 125.0 done
+bearing 130.0 done
+bearing 135.0 done
+bearing 140.0 done
+bearing 145.0 done
+bearing 150.0 done
+bearing 155.0 done
+bearing 160.0 done
+bearing 165.0 done
+bearing 170.0 done
+bearing 175.0 done
+{"name": "lowry", "tile": "output/3dep/lowry/USGS_1M_12_x68y417_CO_Southwest_NRCS_2018_D18.tif", "centre_lonlat": [-108.9186, 37.5852], "size_m": [3837, 4000], "pieces": 2652, "chains": 981, "chains_ge_150m": 127, "chains_ge_300m": 35, "z_ge_2_share": 0.030353140474328903}
+dolores: window (4000, 4000) at (-108.9, 37.7), valid 100%
+bearing   0.0 done
+bearing   5.0 done
+bearing  10.0 done
+bearing  15.0 done
+bearing  20.0 done
+bearing  25.0 done
+bearing  30.0 done
+bearing  35.0 done
+bearing  40.0 done
+bearing  45.0 done
+bearing  50.0 done
+bearing  55.0 done
+bearing  60.0 done
+bearing  65.0 done
+bearing  70.0 done
+bearing  75.0 done
+bearing  80.0 done
+bearing  85.0 done
+bearing  90.0 done
+bearing  95.0 done
+bearing 100.0 done
+bearing 105.0 done
+bearing 110.0 done
+bearing 115.0 done
+bearing 120.0 done
+bearing 125.0 done
+bearing 130.0 done
+bearing 135.0 done
+bearing 140.0 done
+bearing 145.0 done
+bearing 150.0 done
+bearing 155.0 done
+bearing 160.0 done
+bearing 165.0 done
+bearing 170.0 done
+bearing 175.0 done
+{"name": "dolores", "tile": "output/3dep/dolores/USGS_1M_12_x68y418_CO_Southwest_NRCS_2018_D18.tif", "centre_lonlat": [-108.9, 37.7], "size_m": [4000, 4000], "pieces": 2962, "chains": 1111, "chains_ge_150m": 100, "chains_ge_300m": 17, "z_ge_2_share": 0.0310721875}
+ALL-AREAS-DONE
+hovenweep: window (4000, 4000) at (-109.0755, 37.3835), valid 46%
+{"name": "hovenweep", "tile": "output/3dep/hovenweep_merged/hovenweep_x67y414_CO2018_UT2020.tif", "centre_lonlat": [-109.0755, 37.3835], "size_m": [4000, 4000], "pieces": 873, "chains": 501, "chains_ge_150m": 9, "chains_ge_300m": 0, "z_ge_2_share": 0.007996875}
+hovenweep: window (4000, 4000) at (-109.0755, 37.3835), valid 100%
+{"name": "hovenweep", "tile": "output/3dep/hovenweep_merged/hovenweep_x67y414_CO2018_UT2020.tif", "centre_lonlat": [-109.0755, 37.3835], "size_m": [4000, 4000], "pieces": 2116, "chains": 1235, "chains_ge_150m": 20, "chains_ge_300m": 0, "z_ge_2_share": 0.0194105}

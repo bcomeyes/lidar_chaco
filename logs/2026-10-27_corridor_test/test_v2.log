@@ -1,0 +1,119 @@
+--- start 10:36:41
+9 corridors, 99 lines
+/home/matt/Documents/lidar_chaco/scripts/corridor_test.py:105: DeprecationWarning: Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+As an alternative, you can create a new view using np.reshape (with copy=False if needed).
+  arr = s.read(1, window=((r0, r1), (c0, c1))).astype(np.float64)
+/home/matt/Documents/lidar_chaco/scripts/corridor_test.py:105: DeprecationWarning: Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+As an alternative, you can create a new view using np.reshape (with copy=False if needed).
+  arr = s.read(1, window=((r0, r1), (c0, c1))).astype(np.float64)
+Lowry - Far View House | real: 53.23 km with data, 27 stretches, 99.83 m/km
+Lowry - Far View House | shift -3 km: 53.23 km with data, 30 stretches, 110.34 m/km
+Lowry - Far View House | shift -2 km: 53.23 km with data, 28 stretches, 115.43 m/km
+Lowry - Far View House | shift -1 km: 53.23 km with data, 35 stretches, 137.62 m/km
+Lowry - Far View House | shift +1 km: 53.23 km with data, 20 stretches, 80.03 m/km
+Lowry - Far View House | shift +2 km: 53.23 km with data, 27 stretches, 104.14 m/km
+Lowry - Far View House | shift +3 km: 53.23 km with data, 25 stretches, 92.04 m/km
+Lowry - Far View House | rotate -10 deg: 52.56 km with data, 19 stretches, 73.12 m/km
+Lowry - Far View House | rotate +10 deg: 53.23 km with data, 31 stretches, 115.11 m/km
+Lowry - Far View House | rotate -20 deg: 44.26 km with data, 31 stretches, 130.47 m/km
+Lowry - Yucca House | real: 42.47 km with data, 24 stretches, 105.99 m/km
+Lowry - Yucca House | shift -3 km: 42.47 km with data, 15 stretches, 62.44 m/km
+Lowry - Yucca House | shift -2 km: 42.47 km with data, 29 stretches, 139.66 m/km
+Lowry - Far View House | rotate +20 deg: 49.07 km with data, 30 stretches, 115.14 m/km
+Lowry - Yucca House | shift -1 km: 42.47 km with data, 17 stretches, 75.67 m/km
+Lowry - Yucca House | shift +1 km: 41.72 km with data, 17 stretches, 72.15 m/km
+Lowry - Yucca House | shift +2 km: 39.46 km with data, 13 stretches, 63.92 m/km
+Lowry - Yucca House | shift +3 km: 35.35 km with data, 18 stretches, 92.45 m/km
+Lowry - Yucca House | rotate -20 deg: 30.51 km with data, 13 stretches, 86.21 m/km
+Lowry - Yucca House | rotate -10 deg: 41.5 km with data, 20 stretches, 86.24 m/km
+Lowry - Yucca House | rotate +10 deg: 41.07 km with data, 25 stretches, 103.95 m/km
+Lowry - Yucca House | rotate +20 deg: 35.92 km with data, 20 stretches, 105.53 m/km
+Lowry - Edge of the Cedars | real: 48.86 km with data, 24 stretches, 92.87 m/km
+Lowry - Edge of the Cedars | shift -3 km: 40.57 km with data, 11 stretches, 47.45 m/km
+Lowry - Edge of the Cedars | shift -2 km: 48.53 km with data, 27 stretches, 106.98 m/km
+Lowry - Edge of the Cedars | shift +1 km: 47.99 km with data, 31 stretches, 114.44 m/km
+Lowry - Edge of the Cedars | shift -1 km: 48.7 km with data, 29 stretches, 105.56 m/km
+Lowry - Edge of the Cedars | shift +2 km: 48.16 km with data, 27 stretches, 104.99 m/km
+Lowry - Edge of the Cedars | shift +3 km: 48.32 km with data, 26 stretches, 96.7 m/km
+Lowry - Edge of the Cedars | rotate -10 deg: 41.53 km with data, 17 stretches, 77.9 m/km
+Lowry - Edge of the Cedars | rotate +10 deg: 48.2 km with data, 31 stretches, 121.81 m/km
+Lowry - Edge of the Cedars | rotate -20 deg: 26.0 km with data, 10 stretches, 79.98 m/km
+Lowry - Escalante Pueblo | real: 35.11 km with data, 25 stretches, 143.69 m/km
+Lowry - Escalante Pueblo | shift -3 km: 26.63 km with data, 9 stretches, 65.07 m/km
+Lowry - Edge of the Cedars | rotate +20 deg: 44.83 km with data, 35 stretches, 148.87 m/km
+Lowry - Escalante Pueblo | shift -2 km: 29.98 km with data, 16 stretches, 99.62 m/km
+Lowry - Escalante Pueblo | shift -1 km: 33.32 km with data, 15 stretches, 88.99 m/km
+Lowry - Escalante Pueblo | shift +1 km: 35.11 km with data, 12 stretches, 74.65 m/km
+Lowry - Escalante Pueblo | shift +2 km: 35.11 km with data, 17 stretches, 82.45 m/km
+Lowry - Escalante Pueblo | shift +3 km: 35.11 km with data, 9 stretches, 45.37 m/km
+Lowry - Escalante Pueblo | rotate -20 deg: 28.28 km with data, 14 stretches, 98.92 m/km
+Lowry - Escalante Pueblo | rotate -10 deg: 31.64 km with data, 10 stretches, 85.24 m/km
+Lowry - Escalante Pueblo | rotate +10 deg: 35.11 km with data, 18 stretches, 102.85 m/km
+Lowry - Escalante Pueblo | rotate +20 deg: 35.11 km with data, 30 stretches, 271.03 m/km
+Bluff Great House - Edge of the Cedars | real: 38.57 km with data, 18 stretches, 92.83 m/km
+Bluff Great House - Edge of the Cedars | shift -2 km: 32.28 km with data, 16 stretches, 91.53 m/km
+Bluff Great House - Edge of the Cedars | shift -3 km: 24.6 km with data, 13 stretches, 102.99 m/km
+Bluff Great House - Edge of the Cedars | shift +1 km: 38.57 km with data, 30 stretches, 150.02 m/km
+Bluff Great House - Edge of the Cedars | shift -1 km: 38.57 km with data, 22 stretches, 103.64 m/km
+Bluff Great House - Edge of the Cedars | shift +2 km: 38.02 km with data, 24 stretches, 124.58 m/km
+Bluff Great House - Edge of the Cedars | shift +3 km: 35.87 km with data, 20 stretches, 99.99 m/km
+Bluff Great House - Edge of the Cedars | rotate -20 deg: 38.57 km with data, 13 stretches, 62.54 m/km
+Bluff Great House - Edge of the Cedars | rotate -10 deg: 38.57 km with data, 17 stretches, 99.2 m/km
+Bluff Great House - Edge of the Cedars | rotate +10 deg: 36.12 km with data, 17 stretches, 82.75 m/km
+Far View House - Yucca House | real: 16.18 km with data, 17 stretches, 201.05 m/km
+Far View House - Yucca House | shift -3 km: 16.18 km with data, 8 stretches, 93.91 m/km
+Far View House - Yucca House | shift -2 km: 16.18 km with data, 8 stretches, 93.36 m/km
+Far View House - Yucca House | shift -1 km: 16.18 km with data, 4 stretches, 45.97 m/km
+Far View House - Yucca House | shift +1 km: 16.18 km with data, 7 stretches, 74.39 m/km
+Far View House - Yucca House | shift +2 km: 16.18 km with data, 8 stretches, 93.54 m/km
+Far View House - Yucca House | shift +3 km: 16.18 km with data, 5 stretches, 58.08 m/km
+Far View House - Yucca House | rotate -20 deg: 16.18 km with data, 8 stretches, 103.12 m/km
+Bluff Great House - Edge of the Cedars | rotate +20 deg: 20.67 km with data, 8 stretches, 73.82 m/km
+Far View House - Yucca House | rotate -10 deg: 16.18 km with data, 6 stretches, 65.93 m/km
+Far View House - Yucca House | rotate +10 deg: 16.18 km with data, 7 stretches, 83.84 m/km
+Far View House - Yucca House | rotate +20 deg: 16.18 km with data, 7 stretches, 75.93 m/km
+Far View House - Escalante Pueblo | real: 26.88 km with data, 9 stretches, 59.74 m/km
+Far View House - Escalante Pueblo | shift -3 km: 26.88 km with data, 12 stretches, 88.16 m/km
+Far View House - Escalante Pueblo | shift -2 km: 26.88 km with data, 10 stretches, 77.04 m/km
+Far View House - Escalante Pueblo | shift -1 km: 26.88 km with data, 12 stretches, 89.61 m/km
+Far View House - Escalante Pueblo | shift +1 km: 26.88 km with data, 16 stretches, 102.71 m/km
+Far View House - Escalante Pueblo | shift +2 km: 22.57 km with data, 11 stretches, 91.36 m/km
+Far View House - Escalante Pueblo | shift +3 km: 16.78 km with data, 7 stretches, 66.98 m/km
+Far View House - Escalante Pueblo | rotate -10 deg: 26.88 km with data, 28 stretches, 225.06 m/km
+Far View House - Escalante Pueblo | rotate +10 deg: 26.88 km with data, 16 stretches, 104.31 m/km
+Far View House - Escalante Pueblo | rotate +20 deg: 26.88 km with data, 12 stretches, 78.49 m/km
+Far View House - Escalante Pueblo | rotate -20 deg: 18.8 km with data, 14 stretches, 140.23 m/km
+Yucca House - Escalante Pueblo | real: 28.14 km with data, 16 stretches, 112.37 m/km
+Yucca House - Escalante Pueblo | shift -3 km: 28.14 km with data, 13 stretches, 88.85 m/km
+Yucca House - Escalante Pueblo | shift -2 km: 28.14 km with data, 25 stretches, 175.46 m/km
+Yucca House - Escalante Pueblo | shift -1 km: 28.14 km with data, 19 stretches, 136.19 m/km
+Yucca House - Escalante Pueblo | shift +1 km: 28.14 km with data, 10 stretches, 69.41 m/km
+Yucca House - Escalante Pueblo | shift +2 km: 28.14 km with data, 11 stretches, 84.9 m/km
+Yucca House - Escalante Pueblo | shift +3 km: 28.14 km with data, 36 stretches, 303.86 m/km
+Yucca House - Escalante Pueblo | rotate -10 deg: 28.14 km with data, 18 stretches, 120.51 m/km
+Yucca House - Escalante Pueblo | rotate +10 deg: 28.14 km with data, 19 stretches, 131.81 m/km
+Yucca House - Escalante Pueblo | rotate -20 deg: 26.84 km with data, 16 stretches, 116.34 m/km
+Yucca House - Escalante Pueblo | rotate +20 deg: 28.14 km with data, 13 stretches, 97.2 m/km
+Aztec - Salmon Ruins | real: 8.7 km with data, 6 stretches, 134.71 m/km
+Aztec - Salmon Ruins | shift -3 km: 11.37 km with data, 2 stretches, 35.54 m/km
+Aztec - Salmon Ruins | shift -2 km: 7.05 km with data, 6 stretches, 161.35 m/km
+Aztec - Salmon Ruins | shift -1 km: 7.22 km with data, 4 stretches, 108.65 m/km
+Aztec - Salmon Ruins | shift +1 km: 8.87 km with data, 3 stretches, 68.31 m/km
+Aztec - Salmon Ruins | shift +2 km: 9.04 km with data, 6 stretches, 111.48 m/km
+Aztec - Salmon Ruins | shift +3 km: 10.52 km with data, 8 stretches, 153.29 m/km
+Aztec - Salmon Ruins | rotate -20 deg: 8.93 km with data, 7 stretches, 146.23 m/km
+Aztec - Salmon Ruins | rotate -10 deg: 8.79 km with data, 10 stretches, 218.77 m/km
+Aztec - Salmon Ruins | rotate +10 deg: 8.65 km with data, 9 stretches, 197.53 m/km
+Aztec - Salmon Ruins | rotate +20 deg: 8.7 km with data, 5 stretches, 139.15 m/km
+Lowry - Far View House: real 99.83 m/km (27 stretches, 53.23 km) | controls median 112.7, range 73.12-137.62 | beats 3 of 10
+Lowry - Yucca House: real 105.99 m/km (24 stretches, 42.47 km) | controls median 86.2, range 62.44-139.66 | beats 9 of 10
+Lowry - Edge of the Cedars: real 92.87 m/km (24 stretches, 48.86 km) | controls median 105.3, range 47.45-148.87 | beats 3 of 10
+Lowry - Escalante Pueblo: real 143.69 m/km (25 stretches, 35.11 km) | controls median 87.1, range 45.37-271.03 | beats 9 of 10
+Bluff Great House - Edge of the Cedars: real 92.83 m/km (18 stretches, 38.57 km) | controls median 99.6, range 62.54-150.02 | beats 4 of 10
+Far View House - Yucca House: real 201.05 m/km (17 stretches, 16.18 km) | controls median 79.9, range 45.97-103.12 | beats 10 of 10
+Far View House - Escalante Pueblo: real 59.74 m/km (9 stretches, 26.88 km) | controls median 90.5, range 66.98-225.06 | beats 0 of 10
+Yucca House - Escalante Pueblo: real 112.37 m/km (16 stretches, 28.14 km) | controls median 118.4, range 69.41-303.86 | beats 4 of 10
+Aztec - Salmon Ruins: real 134.71 m/km (6 stretches, 8.7 km) | controls median 142.7, range 35.54-218.77 | beats 4 of 10
+
+real lines beat 51% of their controls (chance = 50%); one-sided p = 0.479
+--- end 10:56:30

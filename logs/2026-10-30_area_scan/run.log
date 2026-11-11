@@ -1,0 +1,51 @@
+/home/matt/Documents/lidar_chaco/scripts/area_scan.py:66: DeprecationWarning: Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+As an alternative, you can create a new view using np.reshape (with copy=False if needed).
+  reproject(s.read(1), lc, src_transform=s.transform, src_crs=s.crs, dst_transform=tr,
+Area 7 x 7 km: data on 100%, unplowed + usable 62% (NLCD cropland 32%)
+Hit threshold (99th pct of 838644 sampled scores on unplowed ground): 0.86
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+                    ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+           ^^^^^^^^^^^^^^^^
+  File "/home/matt/Documents/lidar_chaco/scripts/area_scan.py", line 138, in segments
+    thr = G["thr"]
+          ~^^^^^^^
+KeyError: 'thr'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/matt/Documents/lidar_chaco/scripts/area_scan.py", line 329, in <module>
+    main()
+  File "/home/matt/Documents/lidar_chaco/scripts/area_scan.py", line 237, in main
+    res = pool.map(segments, BEARINGS)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/multiprocessing/pool.py", line 367, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/multiprocessing/pool.py", line 774, in get
+    raise self._value
+KeyError: 'thr'
+/home/matt/Documents/lidar_chaco/scripts/area_scan.py:66: DeprecationWarning: Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+As an alternative, you can create a new view using np.reshape (with copy=False if needed).
+  reproject(s.read(1), lc, src_transform=s.transform, src_crs=s.crs, dst_transform=tr,
+Area 7 x 7 km: data on 100%, unplowed + usable 62% (NLCD cropland 32%)
+Hit threshold (99th pct of 838644 sampled scores on unplowed ground): 0.86
+Bearings done: 36 of 36; raw segments 1411
+Segments after merging: 539 (>= 300 m: 19, >= 500 m: 7); total 110.0 km
+Drawn road A (straight, away from camera)   (~4573 m): 195 m of segments on it; turned copies 0-545 m (median 0); beats 9 of 11
+Drawn road B (far cross road), left         (~606 m): 0 m of segments on it; turned copies 0-118 m (median 0); beats 0 of 11
+Drawn road B (far cross road), right        (~572 m): 0 m of segments on it; turned copies 0-0 m (median 0); beats 0 of 11
+Drawn road C (near cross road), left        (~224 m): 0 m of segments on it; turned copies 0-126 m (median 0); beats 0 of 11
+Drawn road C (near cross road), right       (~276 m): 175 m of segments on it; turned copies 0-0 m (median 0); beats 11 of 11
+Drawn road D (toward camera)                (~159 m): 0 m of segments on it; turned copies 0-10 m (median 0); beats 0 of 11
+Drawn road B (far road / oval)              (~1237 m): 87 m of segments on it; turned copies 0-241 m (median 0); beats 10 of 11
+Drawn road A ray 0-3 km                     (~3000 m): 0 m of segments on it; turned copies 0-288 m (median 0); beats 0 of 11
+Radial: 5 segments point at Lowry (line within 50 m); random points median 6, 95th pct 19; Lowry beats 36%
+done

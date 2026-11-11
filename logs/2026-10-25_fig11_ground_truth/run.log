@@ -1,0 +1,24 @@
+/home/matt/Documents/lidar_chaco/scripts/fig11_ground_truth.py:142: DeprecationWarning: Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+As an alternative, you can create a new view using np.reshape (with copy=False if needed).
+  hs_by_name[p.stem] = src.read(1).astype(np.float32)
+panel a vs hillshade_az135_alt20: {'score': 0.1472392888883336, 'px': 2.55, 'rot': 2.0, 'r': np.float64(281.42574788701137), 'k': np.float64(808.167315181971)}
+panel a vs hillshade_az225_alt20: {'score': 0.09984094945525067, 'px': 2.55, 'rot': -2.0, 'r': np.float64(478.87738530237203), 'k': np.float64(130.09673225862346)}
+panel a vs hillshade_az315_alt20: {'score': 0.5379397819029121, 'px': 2.6999999999999993, 'rot': -1.5, 'r': np.float64(169.24780489818772), 'k': np.float64(596.2144110802305)}
+panel a vs hillshade_az315_alt45: {'score': 0.5939188673945496, 'px': 2.6999999999999993, 'rot': -1.5, 'r': np.float64(169.0887955411462), 'k': np.float64(596.2125298578827)}
+panel a vs hillshade_az45_alt20: {'score': 0.48129611705692427, 'px': 2.6999999999999993, 'rot': -1.5, 'r': np.float64(169.0081807417538), 'k': np.float64(596.0840222197977)}
+panel a: best=hillshade_az315_alt45 tiles=3 rms=0.00 m max=0.00 m
+=== rerun Sun Oct 25 12:45:25 PM MDT 2026
+panel a vs hillshade_az135_alt20: {'score': 0.1472392888883336, 'px': 2.55, 'rot': 2.0, 'r': np.float64(281.42574788701137), 'k': np.float64(808.167315181971)}
+panel a vs hillshade_az225_alt20: {'score': 0.09984094945525067, 'px': 2.55, 'rot': -2.0, 'r': np.float64(478.87738530237203), 'k': np.float64(130.09673225862346)}
+panel a vs hillshade_az315_alt20: {'score': 0.5379397819029121, 'px': 2.6999999999999993, 'rot': -1.5, 'r': np.float64(169.24780489818772), 'k': np.float64(596.2144110802305)}
+panel a vs hillshade_az315_alt45: {'score': 0.5939188673945496, 'px': 2.6999999999999993, 'rot': -1.5, 'r': np.float64(169.0887955411462), 'k': np.float64(596.2125298578827)}
+panel a vs hillshade_az45_alt20: {'score': 0.48129611705692427, 'px': 2.6999999999999993, 'rot': -1.5, 'r': np.float64(169.0081807417538), 'k': np.float64(596.0840222197977)}
+panel a: best=hillshade_az315_alt45 tiles=120 rms=0.88 m max=2.26 m
+panel b vs hillshade_az135_alt20: {'score': 0.14596162749304176, 'px': 2.55, 'rot': 2.0, 'r': np.float64(281.4387893337424), 'k': np.float64(807.271246297161)}
+panel b vs hillshade_az225_alt20: {'score': 0.09740725388637712, 'px': 2.55, 'rot': -2.0, 'r': np.float64(478.61916149031333), 'k': np.float64(129.14134787759568)}
+panel b vs hillshade_az315_alt20: {'score': 0.5380717542221567, 'px': 2.6999999999999993, 'rot': -1.5, 'r': np.float64(169.19250359973833), 'k': np.float64(595.1873485575187)}
+panel b vs hillshade_az315_alt45: {'score': 0.5937341534650732, 'px': 2.6999999999999993, 'rot': -1.5, 'r': np.float64(169.04563770918784), 'k': np.float64(595.1882184937939)}
+panel b vs hillshade_az45_alt20: {'score': 0.48074287894696144, 'px': 2.6999999999999993, 'rot': -1.5, 'r': np.float64(168.98416510957293), 'k': np.float64(595.0795632302371)}
+panel b: best=hillshade_az315_alt45 tiles=64 rms=0.69 m max=1.82 m
+panel a vs b disagreement (m): [0.28 0.37 0.47 0.12 0.21 0.3  0.08 0.06 0.14]
+fig11_roads.tif: footprint rows 862-4523 cols 3167-6827, road cells 354128 (88532 m2)

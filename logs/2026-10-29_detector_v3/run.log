@@ -1,0 +1,24 @@
+/home/matt/Documents/lidar_chaco/scripts/learn_detector.py:112: DeprecationWarning: Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+As an alternative, you can create a new view using np.reshape (with copy=False if needed).
+  g = s.read(1)
+Chaco samples: 4945 road stretches on 17 segments; 19775 non-road (random 9890, shifted 4940, turned 4945)
+/home/matt/Documents/lidar_chaco/scripts/learn_detector.py:99: RuntimeWarning: overflow encountered in exp
+  g = Z.T @ (w * (1 / (1 + np.exp(-t)) - y)) + 2 * LAMBDA * np.r_[0, b[1:]]
+Held-out roads (5 folds by segment), AUC / road found at 5% false alarms:
+  v3 learned           all non-road 0.615 / 7%   random 0.636   shifted 0.583   turned 0.605
+  v2 dip shape         all non-road 0.566 / 6%   random 0.540   shifted 0.598   turned 0.587
+  v2 dip, either sign  all non-road 0.562 / 4%   random 0.512   shifted 0.581   turned 0.643
+Per segment AUC vs random ground (v3 | v2): 1: 0.52|0.67, 2: 0.70|0.69, 3: 0.62|0.59, 4: 0.65|0.58, 6: 0.70|0.65, 7: 0.52|0.38, 9: 0.72|0.25, 10: 0.60|0.47, 11: 0.76|0.57, 12: 0.75|0.53, 13: 0.25|0.36, 14: 0.58|0.50, 17: 0.64|0.57, 18: 0.77|0.35, 19: 0.70|0.58, 21: 0.66|0.70, 22: 0.64|0.78
+Mean road cross-section, cm (offset -15..15 m, every 3 m): -3.7 +1.0 +4.0 +4.1 +2.1 +0.3 +0.3 +1.7 +2.3 +0.9 -3.1
+Share of road stretches whose centre is higher than its shoulders (raised): 41%
+Road A   161.4 deg: on-line 25% vs background 7%; per km [0.56, 0.18, 0.0]; pieces >= 100 m: 408 m [(96, 247, -4), (535, 680, -8), (1071, 1183, 5)]
+control  141.4 deg: on-line 11% vs background 9%; per km [0.33, 0.0, 0.0]; pieces >= 100 m: 234 m [(663, 897, -2)]
+control  151.4 deg: on-line 8% vs background 8%; per km [0.17, 0.06, 0.0]; pieces >= 100 m: 0 m []
+control  156.4 deg: on-line 19% vs background 9%; per km [0.35, 0.2, 0.0]; pieces >= 100 m: 571 m [(0, 184, 7), (830, 1108, 0), (1211, 1320, -8)]
+control  166.4 deg: on-line 8% vs background 8%; per km [0.24, 0.01, 0.0]; pieces >= 100 m: 154 m [(851, 1005, 3)]
+control  171.4 deg: on-line 8% vs background 7%; per km [0.15, 0.1, 0.0]; pieces >= 100 m: 152 m [(944, 1096, 1)]
+control  181.4 deg: on-line 8% vs background 7%; per km [0.16, 0.08, 0.0]; pieces >= 100 m: 181 m [(812, 993, -3)]
+control   71.4 deg: on-line 7% vs background 7%; per km [0.07, 0.15, 0.0]; pieces >= 100 m: 115 m [(1694, 1809, 7)]
+control  251.4 deg: on-line 14% vs background 7%; per km [0.18, 0.25, 0.0]; pieces >= 100 m: 371 m [(0, 125, 1), (1142, 1274, 5), (1399, 1513, 4)]
+control  341.4 deg: on-line 9% vs background 8%; per km [0.0, 0.0, 0.27]; pieces >= 100 m: 0 m []
+Road A on-line 25%; controls 7%-19%; Road A beats 9 of 9

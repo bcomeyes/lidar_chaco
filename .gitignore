@@ -1,3 +1,5 @@
 .env
 output/
 .venv/
+backups/
+refs/

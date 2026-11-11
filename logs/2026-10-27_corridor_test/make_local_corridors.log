@@ -1,0 +1,187 @@
+Square Tower - Cutthroat Castle: 10.8 km, 2 tiles, 437 MB
+Traceback (most recent call last):
+  File "/home/matt/Documents/lidar_chaco/scripts/make_corridors.py", line 93, in <module>
+    main()
+  File "/home/matt/Documents/lidar_chaco/scripts/make_corridors.py", line 61, in main
+    both_chacoan=chac, tiles=tiles_along(a, b)))
+                             ^^^^^^^^^^^^^^^^^
+  File "/home/matt/Documents/lidar_chaco/scripts/make_corridors.py", line 41, in tiles_along
+    with urllib.request.urlopen(f"https://tnmaccess.nationalmap.gov/api/v1/products?{q}", timeout=60) as r:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 500: Internal Server Error
+--- retry 11:15:15
+Square Tower - Cutthroat Castle: 10.8 km, 2 tiles, 437 MB
+Square Tower - Hovenweep Hackberry Pueblo: 5.6 km, 2 tiles, 437 MB
+Square Tower - Hovenweep Horseshoe Pueblo: 5.2 km, 2 tiles, 437 MB
+Square Tower - Hovenweep Holly Pueblo and Tower: 3.8 km, 2 tiles, 437 MB
+Square Tower - Cajon: 13.3 km, 4 tiles, 881 MB
+Square Tower - Painted Hand Pueblo: 12.5 km, 3 tiles, 729 MB
+Square Tower - Cannonball Ruins: 10.7 km, 2 tiles, 504 MB
+Cutthroat Castle - Hovenweep Hackberry Pueblo: 5.4 km, 1 tiles, 221 MB
+Cutthroat Castle - Hovenweep Horseshoe Pueblo: 5.6 km, 1 tiles, 221 MB
+Cutthroat Castle - Hovenweep Holly Pueblo and Tower: 7.1 km, 1 tiles, 221 MB
+Cutthroat Castle - Painted Hand Pueblo: 1.7 km, 2 tiles, 513 MB
+Cutthroat Castle - Twin Towers: 10.6 km, 2 tiles, 437 MB
+Cutthroat Castle - Cannonball Ruins: 10.9 km, 3 tiles, 725 MB
+Butler Wash Ruin - Westwater Ruin: 14.2 km, 7 tiles, 1323 MB
+Butler Wash Ruin - House on Fire: 9.5 km, 3 tiles, 639 MB
+Butler Wash Ruin - Lewis Lodge: 12.7 km, 4 tiles, 941 MB
+Butler Wash Ruin - Wall Ruin: 13.0 km, 4 tiles, 939 MB
+Butler Wash Ruin - Big Ruin: 12.7 km, 4 tiles, 939 MB
+Butler Wash Ruin - Mule Canyon Ruin: 9.2 km, 3 tiles, 639 MB
+Westwater Ruin - Edge of the Cedars Great Kiva: 4.6 km, 2 tiles, 342 MB
+Bluff Great House (Anasazi) - River House Ruin: 13.7 km, 5 tiles, 1009 MB
+Goodman Point Pueblo - Sand Canyon Pueblo: 4.7 km, 2 tiles, 539 MB
+Goodman Point Pueblo - Hawkins Pueblo: 14.3 km, 3 tiles, 798 MB
+Goodman Point Pueblo - Castle Rock Pueblo: 11.1 km, 3 tiles, 835 MB
+Goodman Point Pueblo - Saddlehorn Pueblo: 9.7 km, 3 tiles, 835 MB
+Goodman Point Pueblo - Kiva: 9.7 km, 3 tiles, 835 MB
+Goodman Point Pueblo - Corncob House: 8.5 km, 3 tiles, 835 MB
+Sun Temple - Hemenway House: 2.0 km, 1 tiles, 295 MB
+Sun Temple - pithouses: 1.4 km, 1 tiles, 295 MB
+Sun Temple - Far View House: 8.5 km, 2 tiles, 575 MB
+Sun Temple - Badger House Community Site: 5.9 km, 2 tiles, 601 MB
+Sun Temple - Badger House Community Site 2: 5.6 km, 2 tiles, 601 MB
+Sun Temple - Kodak House: 5.2 km, 2 tiles, 601 MB
+Sun Temple - Megalithic House: 8.9 km, 2 tiles, 575 MB
+Sun Temple - Spruce Tree House: 2.3 km, 1 tiles, 295 MB
+Sun Temple - Thomas House: 2.8 km, 1 tiles, 295 MB
+Sun Temple - Casa Colorado: 3.0 km, 1 tiles, 295 MB
+Sun Temple - Swallows Nest: 1.1 km, 1 tiles, 295 MB
+Balcony House - Hemenway House: 1.0 km, 1 tiles, 295 MB
+Balcony House - Oak Tree House: 1.0 km, 1 tiles, 295 MB
+Balcony House - pithouses: 2.4 km, 1 tiles, 295 MB
+Balcony House - Far View House: 9.2 km, 2 tiles, 575 MB
+Balcony House - Badger House Community Site: 6.9 km, 2 tiles, 601 MB
+Balcony House - Badger House Community Site 2: 6.6 km, 2 tiles, 601 MB
+Balcony House - Kodak House: 6.2 km, 2 tiles, 601 MB
+Balcony House - Megalithic House: 9.6 km, 2 tiles, 575 MB
+Balcony House - Spruce Tree House: 3.2 km, 1 tiles, 295 MB
+Balcony House - Thomas House: 3.8 km, 1 tiles, 295 MB
+Balcony House - Casa Colorado: 3.5 km, 1 tiles, 295 MB
+Hemenway House - Oak Tree House: 2.0 km, 1 tiles, 295 MB
+Hemenway House - pithouses: 3.4 km, 1 tiles, 295 MB
+Hemenway House - Far View House: 9.9 km, 2 tiles, 575 MB
+Hemenway House - Badger House Community Site: 7.9 km, 2 tiles, 601 MB
+Hemenway House - Badger House Community Site 2: 7.6 km, 2 tiles, 601 MB
+Hemenway House - Kodak House: 7.2 km, 2 tiles, 601 MB
+Hemenway House - Megalithic House: 10.3 km, 2 tiles, 575 MB
+Hemenway House - Spruce Tree House: 4.1 km, 1 tiles, 295 MB
+Hemenway House - Thomas House: 4.7 km, 1 tiles, 295 MB
+Hemenway House - Casa Colorado: 4.2 km, 1 tiles, 295 MB
+Hemenway House - Swallows Nest: 1.3 km, 1 tiles, 295 MB
+Oak Tree House - pithouses: 1.4 km, 1 tiles, 295 MB
+Oak Tree House - Far View House: 8.8 km, 2 tiles, 575 MB
+Oak Tree House - Badger House Community Site: 6.0 km, 2 tiles, 601 MB
+Oak Tree House - Badger House Community Site 2: 5.6 km, 2 tiles, 601 MB
+Oak Tree House - Kodak House: 5.2 km, 2 tiles, 601 MB
+Oak Tree House - Megalithic House: 9.2 km, 2 tiles, 575 MB
+Oak Tree House - Spruce Tree House: 2.6 km, 1 tiles, 295 MB
+Oak Tree House - Thomas House: 3.1 km, 1 tiles, 295 MB
+Oak Tree House - Casa Colorado: 2.6 km, 1 tiles, 295 MB
+pithouses - Far View House: 8.0 km, 2 tiles, 575 MB
+pithouses - Badger House Community Site: 4.6 km, 2 tiles, 601 MB
+pithouses - Badger House Community Site 2: 4.2 km, 2 tiles, 601 MB
+pithouses - Kodak House: 3.8 km, 2 tiles, 601 MB
+pithouses - Megalithic House: 8.4 km, 2 tiles, 575 MB
+pithouses - Spruce Tree House: 1.9 km, 1 tiles, 295 MB
+pithouses - Thomas House: 2.0 km, 1 tiles, 295 MB
+pithouses - Casa Colorado: 2.3 km, 1 tiles, 295 MB
+pithouses - Swallows Nest: 2.3 km, 1 tiles, 295 MB
+Far View House - Badger House Community Site: 6.2 km, 3 tiles, 876 MB
+Far View House - Badger House Community Site 2: 6.0 km, 3 tiles, 876 MB
+Far View House - Kodak House: 7.1 km, 4 tiles, 1171 MB
+Far View House - Hawkins Pueblo: 13.2 km, 3 tiles, 829 MB
+Far View House - Spruce Tree House: 6.2 km, 2 tiles, 575 MB
+Far View House - Thomas House: 5.9 km, 2 tiles, 575 MB
+Far View House - Casa Colorado: 10.0 km, 2 tiles, 575 MB
+Far View House - Swallows Nest: 9.6 km, 2 tiles, 575 MB
+Badger House Community Site - Kodak House: 1.2 km, 1 tiles, 306 MB
+Badger House Community Site - Megalithic House: 6.6 km, 3 tiles, 876 MB
+Badger House Community Site - Spruce Tree House: 4.3 km, 2 tiles, 601 MB
+Badger House Community Site - Thomas House: 3.6 km, 2 tiles, 601 MB
+Badger House Community Site - Casa Colorado: 5.4 km, 2 tiles, 601 MB
+Badger House Community Site - Swallows Nest: 6.9 km, 2 tiles, 601 MB
+Badger House Community Site 2 - Kodak House: 1.2 km, 1 tiles, 306 MB
+Badger House Community Site 2 - Megalithic House: 6.4 km, 3 tiles, 876 MB
+Badger House Community Site 2 - Spruce Tree House: 3.9 km, 2 tiles, 601 MB
+Badger House Community Site 2 - Thomas House: 3.2 km, 2 tiles, 601 MB
+Badger House Community Site 2 - Casa Colorado: 5.2 km, 2 tiles, 601 MB
+Badger House Community Site 2 - Swallows Nest: 6.5 km, 2 tiles, 601 MB
+Kodak House - Megalithic House: 7.5 km, 4 tiles, 1171 MB
+Kodak House - Spruce Tree House: 4.0 km, 2 tiles, 601 MB
+Kodak House - Thomas House: 3.4 km, 2 tiles, 601 MB
+Kodak House - Casa Colorado: 4.3 km, 2 tiles, 601 MB
+Kodak House - Swallows Nest: 6.0 km, 2 tiles, 601 MB
+Sand Canyon Pueblo - Castle Rock Pueblo: 7.2 km, 2 tiles, 579 MB
+Sand Canyon Pueblo - Saddlehorn Pueblo: 5.9 km, 2 tiles, 579 MB
+Sand Canyon Pueblo - Kiva: 6.8 km, 2 tiles, 579 MB
+Sand Canyon Pueblo - Corncob House: 4.6 km, 2 tiles, 579 MB
+Hovenweep Hackberry Pueblo - Hovenweep Holly Pueblo and Tower: 1.8 km, 1 tiles, 221 MB
+Hovenweep Hackberry Pueblo - Painted Hand Pueblo: 7.1 km, 2 tiles, 513 MB
+Hovenweep Hackberry Pueblo - Twin Towers: 5.4 km, 2 tiles, 437 MB
+Hovenweep Hackberry Pueblo - Cannonball Ruins: 8.4 km, 3 tiles, 725 MB
+Hovenweep Horseshoe Pueblo - Hovenweep Holly Pueblo and Tower: 1.5 km, 1 tiles, 221 MB
+Hovenweep Horseshoe Pueblo - Painted Hand Pueblo: 7.3 km, 2 tiles, 513 MB
+Hovenweep Horseshoe Pueblo - Twin Towers: 5.1 km, 2 tiles, 437 MB
+Hovenweep Horseshoe Pueblo - Cannonball Ruins: 8.7 km, 3 tiles, 725 MB
+Hovenweep Holly Pueblo and Tower - Painted Hand Pueblo: 8.8 km, 2 tiles, 513 MB
+Hovenweep Holly Pueblo and Tower - Twin Towers: 3.6 km, 2 tiles, 437 MB
+Hovenweep Holly Pueblo and Tower - Cannonball Ruins: 8.7 km, 3 tiles, 725 MB
+Great Kiva - Hawkins Pueblo: 11.8 km, 3 tiles, 811 MB
+Great Kiva - Kiva: 13.3 km, 3 tiles, 848 MB
+Cajon - Twin Towers: 13.3 km, 4 tiles, 881 MB
+House on Fire - Moon House: 12.7 km, 3 tiles, 910 MB
+House on Fire - Lewis Lodge: 6.9 km, 2 tiles, 608 MB
+House on Fire - Wall Ruin: 3.8 km, 2 tiles, 606 MB
+House on Fire - Big Ruin: 3.4 km, 2 tiles, 606 MB
+Hawkins Pueblo - Megalithic House: 12.9 km, 3 tiles, 829 MB
+Moon House - Citadel Ruin: 5.4 km, 2 tiles, 615 MB
+Moon House - Wall Ruin: 14.3 km, 2 tiles, 604 MB
+Moon House - Big Ruin: 13.9 km, 2 tiles, 604 MB
+Moon House - Mule Canyon Ruin: 12.4 km, 3 tiles, 910 MB
+Painted Hand Pueblo - Twin Towers: 12.3 km, 3 tiles, 729 MB
+Painted Hand Pueblo - Cannonball Ruins: 12.1 km, 4 tiles, 1017 MB
+Twin Towers - Cannonball Ruins: 10.3 km, 2 tiles, 504 MB
+Cannonball Ruins - Castle Rock Pueblo: 13.6 km, 3 tiles, 800 MB
+Cannonball Ruins - Saddlehorn Pueblo: 14.4 km, 3 tiles, 800 MB
+Castle Rock Pueblo - Saddlehorn Pueblo: 1.4 km, 1 tiles, 296 MB
+Castle Rock Pueblo - Kiva: 2.7 km, 1 tiles, 296 MB
+Castle Rock Pueblo - Corncob House: 2.6 km, 1 tiles, 296 MB
+Saddlehorn Pueblo - Kiva: 2.4 km, 1 tiles, 296 MB
+Saddlehorn Pueblo - Corncob House: 1.3 km, 1 tiles, 296 MB
+Cliff Dwelling - Cliff Dwelling 2: 2.0 km, 1 tiles, 314 MB
+Megalithic House - Spruce Tree House: 6.6 km, 2 tiles, 575 MB
+Megalithic House - Thomas House: 6.3 km, 2 tiles, 575 MB
+Megalithic House - Casa Colorado: 10.4 km, 2 tiles, 575 MB
+Megalithic House - Swallows Nest: 10.0 km, 2 tiles, 575 MB
+Kiva - Corncob House: 2.8 km, 1 tiles, 296 MB
+Spruce Tree House - Casa Colorado: 4.1 km, 1 tiles, 295 MB
+Spruce Tree House - Swallows Nest: 3.4 km, 1 tiles, 295 MB
+Thomas House - Casa Colorado: 4.2 km, 1 tiles, 295 MB
+Thomas House - Swallows Nest: 3.9 km, 1 tiles, 295 MB
+Casa Colorado - Swallows Nest: 3.0 km, 1 tiles, 295 MB
+Alkali Ridge - Edge of the Cedars Great Kiva: 13.0 km, 11 tiles, 1077 MB
+Lewis Lodge - Wall Ruin: 5.7 km, 3 tiles, 897 MB
+Lewis Lodge - Big Ruin: 6.0 km, 3 tiles, 897 MB
+Lewis Lodge - Mule Canyon Ruin: 7.4 km, 2 tiles, 608 MB
+Wall Ruin - Mule Canyon Ruin: 4.3 km, 2 tiles, 606 MB
+Big Ruin - Mule Canyon Ruin: 3.9 km, 2 tiles, 606 MB
+all corridors: 44 unique tiles, 9392 MB

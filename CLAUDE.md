@@ -57,6 +57,9 @@ The user gives Claude a lot of freedom and expects it to be used.
 
 ## Communication
 
+- **Every result report starts with a one-sentence plain verdict**: did it work, and what
+  did we find ("It worked: …" / "It didn't bear fruit: …"). Then the full detail that
+  explains why. This is about putting the answer first, not about giving less detail.
 - **Answer the user's points first, in their order, in plain words, before any tool call
   that builds anything.** If they ask "does that make sense?", say yes or no first. A
   constraint the user states (like the cron rule above) gets acknowledged and honoured

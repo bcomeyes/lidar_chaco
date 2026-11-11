@@ -1,0 +1,23 @@
+/home/matt/Documents/lidar_chaco/scripts/known_road_views.py:58: DeprecationWarning: Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+As an alternative, you can create a new view using np.reshape (with copy=False if needed).
+  road, tr = s.read(1) == 2, s.transform
+output/known_road_views/seg01_1.png
+output/known_road_views/seg01_2.png
+output/known_road_views/seg02_1.png
+output/known_road_views/seg02_2.png
+output/known_road_views/seg03_1.png
+output/known_road_views/seg04_1.png
+output/known_road_views/seg06_1.png
+output/known_road_views/seg07_1.png
+output/known_road_views/seg09_1.png
+output/known_road_views/seg10_1.png
+output/known_road_views/seg11_1.png
+output/known_road_views/seg12_1.png
+output/known_road_views/seg13_1.png
+output/known_road_views/seg14_1.png
+output/known_road_views/seg17_1.png
+output/known_road_views/seg18_1.png
+output/known_road_views/seg19_1.png
+output/known_road_views/seg21_1.png
+output/known_road_views/seg22_1.png
+19 images; open output/known_road_views/index.html

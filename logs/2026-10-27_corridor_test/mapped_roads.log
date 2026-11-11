@@ -1,0 +1,17 @@
+Lowry - Far View House: aligned pieces on mapped roads: real 2%, controls 3% | off-road score real 107.5 m/km vs controls median 67.1 | beats 9 of 10
+Lowry - Yucca House: overpass attempt 1 failed: HTTP Error 502: Bad Gateway
+Lowry - Yucca House: overpass attempt 2 failed: HTTP Error 502: Bad Gateway
+Lowry - Yucca House: overpass attempt 3 failed: HTTP Error 502: Bad Gateway
+Lowry - Yucca House: aligned pieces on mapped roads: real 3%, controls 1% | off-road score real 126.5 m/km vs controls median 47.6 | beats 10 of 10
+Lowry - Edge of the Cedars: overpass attempt 1 failed: HTTP Error 502: Bad Gateway
+Lowry - Edge of the Cedars: aligned pieces on mapped roads: real 0%, controls 5% | off-road score real 52.0 m/km vs controls median 66.9 | beats 4 of 10
+Lowry - Escalante Pueblo: aligned pieces on mapped roads: real 6%, controls 6% | off-road score real 68.6 m/km vs controls median 45.8 | beats 7 of 10
+Bluff Great House - Edge of the Cedars: aligned pieces on mapped roads: real 11%, controls 6% | off-road score real 89.0 m/km vs controls median 60.4 | beats 9 of 10
+Far View House - Yucca House: aligned pieces on mapped roads: real 4%, controls 1% | off-road score real 173.4 m/km vs controls median 31.8 | beats 10 of 10
+Far View House - Escalante Pueblo: aligned pieces on mapped roads: real 25%, controls 3% | off-road score real 9.0 m/km vs controls median 66.4 | beats 0 of 10
+Yucca House - Escalante Pueblo: aligned pieces on mapped roads: real 0%, controls 8% | off-road score real 76.4 m/km vs controls median 58.2 | beats 8 of 10
+Aztec - Salmon Ruins: overpass attempt 1 failed: HTTP Error 502: Bad Gateway
+Aztec - Salmon Ruins: overpass attempt 2 failed: HTTP Error 502: Bad Gateway
+Aztec - Salmon Ruins: aligned pieces on mapped roads: real 17%, controls 13% | off-road score real 55.9 m/km vs controls median 33.3 | beats 7 of 10
+all pieces: real lines beat 70% of controls; one-sided p = 0.031
+mapped roads removed: real lines beat 71% of controls; one-sided p = 0.023

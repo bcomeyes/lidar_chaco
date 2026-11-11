@@ -1,0 +1,23 @@
+global AUC composite: 0.425
+global AUC lrm: 0.541
+global AUC fusion: 0.516
+{
+  "road_cells": 354128,
+  "footprint_cells": 11926074,
+  "segments": 17,
+  "segment_auc_composite": {
+    "median": 0.483,
+    "above_0_6": 0,
+    "above_0_7": 0
+  },
+  "segment_auc_lrm": {
+    "median": 0.574,
+    "above_0_6": 6,
+    "above_0_7": 1
+  },
+  "segment_auc_fusion": {
+    "median": 0.561,
+    "above_0_6": 5,
+    "above_0_7": 0
+  }
+}

@@ -1,0 +1,8 @@
+window  30 m: bar@75% =  4.5 cm -> 44% of road stretches pass (road median 3.9 cm)
+window  30 m: bar@90% =  7.9 cm -> 17% of road stretches pass (road median 3.9 cm)
+window  60 m: bar@75% =  3.5 cm -> 50% of road stretches pass (road median 3.4 cm)
+window  60 m: bar@90% =  6.4 cm -> 21% of road stretches pass (road median 3.4 cm)
+window 100 m: bar@75% =  3.1 cm -> 47% of road stretches pass (road median 2.7 cm)
+window 100 m: bar@90% =  5.6 cm -> 22% of road stretches pass (road median 2.7 cm)
+window 150 m: bar@75% =  2.5 cm -> 52% of road stretches pass (road median 2.6 cm)
+window 150 m: bar@90% =  4.6 cm -> 28% of road stretches pass (road median 2.6 cm)
