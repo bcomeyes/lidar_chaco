@@ -3,3 +3,4 @@ output/
 .venv/
 backups/
 refs/
+__pycache__/
